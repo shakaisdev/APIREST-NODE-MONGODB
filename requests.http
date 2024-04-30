@@ -1,0 +1,22 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Agustin Rivas",
+    "age": 26,
+    "email": "agustinrivas@email.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/66316aa1cc30c55f2710ff0a HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/66316aa1cc30c55f2710ff0a HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/66316aa1cc30c55f2710ff0a HTTP/1.1
+Content-Type: application/json
